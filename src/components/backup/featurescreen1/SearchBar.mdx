@@ -1,0 +1,56 @@
+---
+name: SearchBar
+menu: Components
+---
+
+import { Playground, PropsTable } from "docz";
+import { SearchBar } from "./SearchBar.tsx";
+
+# SearchBar
+
+this is FeatureScreen children component
+
+### Best practices
+
+## Properties
+
+<PropsTable of={SearchBar} />
+
+## Basic usage
+
+<Playground>
+  <SearchBar
+    placeholder="search by name"
+    borderColor="rgba(255, 79, 32, 1.000)"
+  />
+</Playground>
+
+## With different placeholder
+
+<Playground>
+  <SearchBar
+    placeholder="search by email"
+    borderColor="rgba(255, 79, 32, 1.000)"
+  />
+  <SearchBar
+    placeholder="search by gendre"
+    borderColor="rgba(255, 79, 32, 1.000)"
+  />
+</Playground>
+
+## With different borderColor
+
+<Playground>
+  <SearchBar
+    placeholder="search by gendre"
+    borderColor="rgba(255, 79, 32, 1.000)"
+  />
+  <SearchBar
+    placeholder="search by gendre"
+    borderColor="rgba(31, 75, 166, 1.000)"
+  />
+  <SearchBar
+    placeholder="search by gendre"
+    borderColor="rgba(76, 217, 99, 1.000)"
+  />
+</Playground>

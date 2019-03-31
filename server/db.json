@@ -1,0 +1,61 @@
+{
+  "posts": [{ "id": 1, "title": "json-server", "author": "typicode" }],
+  "comments": [{ "id": 1, "body": "some comment", "postId": 1 }],
+  "profile": { "name": "typicode" },
+  "products": [
+    {
+      "description": "A collection of navigational components that compose declaratively with your app",
+      "id": 1,
+      "name": "React Router",
+      "price": 8,
+      "slug": 2,
+      "reviews": [
+        {
+          "comment": "Excellent! This does everything I want",
+          "reviewer": "Billy"
+        },
+        {
+          "comment": "The best router I've ever worked with",
+          "reviewer": "Sally"
+        }
+      ],
+      "bestSell": true
+    },
+    {
+      "description": "tes2",
+      "id": 2,
+      "name": "React Router",
+      "price": 8,
+      "slug": 2,
+      "reviews": [
+        {
+          "comment": "Excellent! This does everything I want",
+          "reviewer": "Billy"
+        },
+        {
+          "comment": "The best router I've ever worked with",
+          "reviewer": "Sally"
+        }
+      ],
+      "bestSell": true
+    },
+    {
+      "description": "test3",
+      "id": 3,
+      "name": "React Router",
+      "price": 8,
+      "slug": 2,
+      "reviews": [
+        {
+          "comment": "Excellent! This does everything I want",
+          "reviewer": "Billy"
+        },
+        {
+          "comment": "The best router I've ever worked with",
+          "reviewer": "Sally"
+        }
+      ],
+      "bestSell": true
+    }
+  ]
+}
