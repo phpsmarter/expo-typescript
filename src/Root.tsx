@@ -7,12 +7,14 @@ import { View, Text } from "react-native";
 //import ReaderScreen4 from "./page/language-learning-screen4";
 //import ReaderScreen5 from "./page/order-now";
 //import FoodScreen1 from "./page/burger";
-import ChatScreen from "./page/chat";
+//import ChatScreen from "./page/chat";
 //import CalendarScreen from "./page/calendar";
 //import AppleCredit from "./page/apple-credit";
 
 //import Slider from "./page/slider";
-import ProfileScreen from "./page/kino/profile3";
+//import ProfileScreen from "./page/kino/profile3";
+
+import PageScreen from "./page/liberty/Page4";
 
 export interface APPProps {}
 export interface APPState {
@@ -33,12 +35,11 @@ export default class APP extends React.Component<APPProps, APPState> {
           borderWidth: 0,
           borderColor: "blue",
           flex: 1,
-          justifyContent: "center",
-          alignItems: "center",
-          backgroundColor: "rgb(224, 223, 225)"
+
+          backgroundColor: "white"
         }}
       >
-        <ProfileScreen />
+        <PageScreen />
       </View>
     );
   }
