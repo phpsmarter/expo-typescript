@@ -16,3 +16,8 @@ Make sure you have the [Expo CLI](https://docs.expo.io/versions/latest/workflow/
 2. run `expo start` in the project directory to start the project.
 
 You are now ready to start programming in Typescript with `Expo` and `React Native`!
+
+
+## fork  from this sourcecode
+
+##     add styled-componts and redux ,redux-dev-tools 作为模板
