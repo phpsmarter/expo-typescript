@@ -19,6 +19,7 @@
     "babel-preset-react-native-stage-0": "^1.0.1",
     "expo": "^31.0.2",
     "moment": "^2.24.0",
+    "normalizr": "^3.3.0",
     "react": "16.5.0",
     "react-dom": "^16.8.5",
     "react-moment": "^0.8.4",
