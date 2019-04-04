@@ -10,13 +10,14 @@ export interface SideEffect {
  */
 export type StateType = {
   products?: any[];
-  productById: object;
+  productById?: object;
   fetching: boolean;
   fetched: boolean;
 };
 
 const initialState: StateType = {
   products: [],
+  productById: {},
   fetching: false,
   fetched: false
 };

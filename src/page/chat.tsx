@@ -60,7 +60,7 @@ class Chat extends React.Component<ChatProps, ChatState> {
           placeholder={this.state.placeholder}
           onChangeText={text => {
             this.setState({ text });
-            console.log(this.state.text);
+            //console.log(this.state.text);
           }}
         />
         <View

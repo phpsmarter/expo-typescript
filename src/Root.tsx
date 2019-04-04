@@ -14,7 +14,8 @@ import { View, Text } from "react-native";
 //import Slider from "./page/slider";
 //import ProfileScreen from "./page/kino/profile3";
 
-import PageScreen from "./page/liberty/Page4";
+//import PageScreen from "./page/liberty/Page4";
+import PageScreen from "./page/apartment/apartment2";
 
 export interface APPProps {}
 export interface APPState {

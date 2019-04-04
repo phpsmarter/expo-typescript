@@ -24,5 +24,5 @@ interface DeleteMessageAction {
     timestamp: number;
   };
 }
-
+//action可以用联合类型
 export type ChatActionTypes = SendMessageAction | DeleteMessageAction;
